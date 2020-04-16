@@ -73,7 +73,7 @@ public class List extends AppCompatActivity {
                             @Override
                             public void onResponse(String response) {
                                 Toast.makeText(List.this, "Task Added", Toast.LENGTH_SHORT).show();
-                                View.append("\n" + TaskName.getText().toString());
+                                View.append("\n \n" + TaskName.getText().toString());
                             }
                         }, new Response.ErrorListener() {
                     @Override
